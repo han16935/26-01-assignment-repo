@@ -29,9 +29,9 @@ class SecurityConfig(
             "/actuator/**",
             "/swagger-ui/**",
             "/v3/api-docs/**",
-            "/user/login",
-            "/user/join",
-            "/user/reissue"
+            "/auth/login",
+            "/auth/join",
+            "/auth/reissue"
         )
 
         private val ADMIN_LIST = arrayOf(

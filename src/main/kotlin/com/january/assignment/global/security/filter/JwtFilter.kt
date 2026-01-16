@@ -16,8 +16,8 @@ class JwtFilter (
         private const val AUTHORIZATION = "Authorization"
         private const val BEARER = "Bearer"
         private val IGNORE_JWT_FILTER_PATH = listOf(
-            "/user/login",
-            "/user/refresh"
+            "/auth/login",
+            "/auth/refresh"
         )
     }
 
