@@ -72,3 +72,9 @@ allOpen {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+
+dependencyManagement {
+	imports {
+		mavenBom("org.springframework.ai:spring-ai-bom:2.0.0-M1")
+	}
+}
