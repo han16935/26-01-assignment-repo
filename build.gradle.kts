@@ -41,9 +41,6 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-data-redis")
 
-	// Swagger
-	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.1")
-
 	// Monitoring
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 
@@ -75,6 +72,6 @@ tasks.withType<Test> {
 
 dependencyManagement {
 	imports {
-		mavenBom("org.springframework.ai:spring-ai-bom:2.0.0-M1")
+		mavenBom("org.springframework.ai:spring-ai-bom:1.0.1")
 	}
 }
